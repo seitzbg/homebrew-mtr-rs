@@ -3,28 +3,28 @@
 class MtrRs < Formula
   desc "Rust port of mtr (My TraceRoute) with a terminal UI and classic reports"
   homepage "https://github.com/seitzbg/mtr-rs"
-  version "0.4.0"
+  version "0.4.1"
   license "GPL-2.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.0/mtr-rs-0.4.0-aarch64-macos.tar.gz"
-      sha256 "6c41f27094f12dd1367351bba395ba05d03ea3abcea4a28b3d5f6f121a1d9533"
+      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.1/mtr-rs-0.4.1-aarch64-macos.tar.gz"
+      sha256 "ce9d45809ee67f767107d33ef7c657524e6ac6f44dce7675c4f5d3a36a68fe1b"
     end
     on_intel do
-      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.0/mtr-rs-0.4.0-x86_64-macos.tar.gz"
-      sha256 "63ed12894af6da7bbb02a42769947d3ec7f38560bd9294feda3e41d587c570e5"
+      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.1/mtr-rs-0.4.1-x86_64-macos.tar.gz"
+      sha256 "487386b33962a24672bc3cd11150b965c25a2bd43410a2f4e2806e584b56e3fd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.0/mtr-rs-0.4.0-aarch64-linux.tar.gz"
-      sha256 "2f5f2de31b07b69208202f6ea70b708dcbd370c3146fb86be9446b6ff25d04b5"
+      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.1/mtr-rs-0.4.1-aarch64-linux.tar.gz"
+      sha256 "3f3a7dd8b9321d2bff17e352021a705cec5fc6414105dbc075237a4f8b85627e"
     end
     on_intel do
-      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.0/mtr-rs-0.4.0-x86_64-linux.tar.gz"
-      sha256 "8d4c1274b56935944c96f41f788d3643d34237cce9c6c6aabbb7e8050a3a6d57"
+      url "https://github.com/seitzbg/mtr-rs/releases/download/v0.4.1/mtr-rs-0.4.1-x86_64-linux.tar.gz"
+      sha256 "636da18d6dffcad9116eaed47b8fa65de974c595de03e1e00151429021c34a35"
     end
   end
 
